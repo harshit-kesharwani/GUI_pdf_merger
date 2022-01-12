@@ -60,9 +60,8 @@ def main_window():
     frame2.grid(row=2, padx=0, pady=0)
     b2=Button(frame2,text="Merge",command=lambda:file_merger(),width=20,fg='black',bg='pink',font=("Helvetica",10,'bold'),bd=0)
     b2.grid(row=0,pady=5)
-    sen1=Label(frame2,text="Merged file will be created in root directory",font=('Calibra',10,'bold'),bg='gray',fg="White")
+    sen1=Label(frame2,text="Resultant merged file will have its destination in root directory",font=('Calibra',10,'bold'),bg='gray',fg="White")
     sen1.grid(row=1)
-
 
 
 main_window()
